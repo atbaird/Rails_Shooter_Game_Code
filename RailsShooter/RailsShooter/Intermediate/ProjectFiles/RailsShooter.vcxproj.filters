@@ -1,0 +1,187 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<None Include="..\..\RailsShooter.uproject" />
+		<Filter Include="Source">
+			<UniqueIdentifier>{02DFBA45-0DF2-46F4-8E64-EB1A827E7214}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\RailsShooter.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<None Include="..\..\Source\RailsShooterEditor.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<Filter Include="Config">
+			<UniqueIdentifier>{3179B0E4-5A20-4764-9811-618520C29320}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Config\DefaultEditor.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEngine.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultGame.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultInput.ini">
+			<Filter>Config</Filter>
+		</None >
+		<Filter Include="Source\RailsShooter">
+			<UniqueIdentifier>{E5514F96-2480-4759-BD4F-605E49B309CF}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="..\..\Source\RailsShooter\Checkpoint.cpp">
+			<Filter>Source\RailsShooter</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\RailsShooter\Checkpoint.h">
+			<Filter>Source\RailsShooter</Filter>
+		</ClInclude >
+		<None Include="..\..\Source\RailsShooter\RailsShooter.Build.cs">
+			<Filter>Source\RailsShooter</Filter>
+		</None >
+		<ClCompile Include="..\..\Source\RailsShooter\RailsShooter.cpp">
+			<Filter>Source\RailsShooter</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\RailsShooter\RailsShooter.h">
+			<Filter>Source\RailsShooter</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\RailsShooter\RailsShooterGameMode.cpp">
+			<Filter>Source\RailsShooter</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\RailsShooter\RailsShooterGameMode.h">
+			<Filter>Source\RailsShooter</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\RailsShooter\ReticleBillboards.cpp">
+			<Filter>Source\RailsShooter</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\RailsShooter\ReticleBillboards.h">
+			<Filter>Source\RailsShooter</Filter>
+		</ClInclude >
+		<Filter Include="Source\RailsShooter\Cameras">
+			<UniqueIdentifier>{1696C9AF-75E6-4509-A8DB-B5A89529589C}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="..\..\Source\RailsShooter\Cameras\EmptyRailsCamera.cpp">
+			<Filter>Source\RailsShooter\Cameras</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\RailsShooter\Cameras\EmptyRailsCamera.h">
+			<Filter>Source\RailsShooter\Cameras</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\RailsShooter\Cameras\RailsCamera.cpp">
+			<Filter>Source\RailsShooter\Cameras</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\RailsShooter\Cameras\RailsCamera.h">
+			<Filter>Source\RailsShooter\Cameras</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\RailsShooter\Cameras\RailsCameraHybrid.cpp">
+			<Filter>Source\RailsShooter\Cameras</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\RailsShooter\Cameras\RailsCameraHybrid.h">
+			<Filter>Source\RailsShooter\Cameras</Filter>
+		</ClInclude >
+		<Filter Include="Source\RailsShooter\Obstacles">
+			<UniqueIdentifier>{8E2C03E0-B132-4414-BBCA-650E602EB504}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="..\..\Source\RailsShooter\Obstacles\Obstacle.cpp">
+			<Filter>Source\RailsShooter\Obstacles</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\RailsShooter\Obstacles\Obstacle.h">
+			<Filter>Source\RailsShooter\Obstacles</Filter>
+		</ClInclude >
+		<Filter Include="Source\RailsShooter\Pawns">
+			<UniqueIdentifier>{9AFDAE21-DFB3-4B28-9EC8-FA47E50C92D3}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="..\..\Source\RailsShooter\Pawns\EnemyShip.cpp">
+			<Filter>Source\RailsShooter\Pawns</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\RailsShooter\Pawns\EnemyShip.h">
+			<Filter>Source\RailsShooter\Pawns</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\RailsShooter\Pawns\MyPawn.cpp">
+			<Filter>Source\RailsShooter\Pawns</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\RailsShooter\Pawns\MyPawn.h">
+			<Filter>Source\RailsShooter\Pawns</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\RailsShooter\Pawns\PlayerShip.cpp">
+			<Filter>Source\RailsShooter\Pawns</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\RailsShooter\Pawns\PlayerShip.h">
+			<Filter>Source\RailsShooter\Pawns</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\RailsShooter\Pawns\PlayerShipHybrid.cpp">
+			<Filter>Source\RailsShooter\Pawns</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\RailsShooter\Pawns\PlayerShipHybrid.h">
+			<Filter>Source\RailsShooter\Pawns</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\RailsShooter\Pawns\PlayerShipNoControlsWithin.cpp">
+			<Filter>Source\RailsShooter\Pawns</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\RailsShooter\Pawns\PlayerShipNoControlsWithin.h">
+			<Filter>Source\RailsShooter\Pawns</Filter>
+		</ClInclude >
+		<Filter Include="Source\RailsShooter\Powerups">
+			<UniqueIdentifier>{A07DF35A-933E-4AC5-807F-489418FD036A}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="..\..\Source\RailsShooter\Powerups\Powerup.cpp">
+			<Filter>Source\RailsShooter\Powerups</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\RailsShooter\Powerups\Powerup.h">
+			<Filter>Source\RailsShooter\Powerups</Filter>
+		</ClInclude >
+		<Filter Include="Source\RailsShooter\Targets">
+			<UniqueIdentifier>{2F3748A4-BD01-4B6C-8547-5461812401E8}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="..\..\Source\RailsShooter\Targets\Bullet.cpp">
+			<Filter>Source\RailsShooter\Targets</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\RailsShooter\Targets\Bullet.h">
+			<Filter>Source\RailsShooter\Targets</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\RailsShooter\Targets\Mine.cpp">
+			<Filter>Source\RailsShooter\Targets</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\RailsShooter\Targets\Mine.h">
+			<Filter>Source\RailsShooter\Targets</Filter>
+		</ClInclude >
+		<Filter Include="Source\RailsShooter\Tutorials">
+			<UniqueIdentifier>{1CC2916C-F300-47BD-9CA6-36DB245E27FF}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="..\..\Source\RailsShooter\Tutorials\Countdown.cpp">
+			<Filter>Source\RailsShooter\Tutorials</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\RailsShooter\Tutorials\Countdown.h">
+			<Filter>Source\RailsShooter\Tutorials</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\RailsShooter\Tutorials\FloatingActor.cpp">
+			<Filter>Source\RailsShooter\Tutorials</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\RailsShooter\Tutorials\FloatingActor.h">
+			<Filter>Source\RailsShooter\Tutorials</Filter>
+		</ClInclude >
+		<Filter Include="Source\RailsShooter\Tutorials\Camera">
+			<UniqueIdentifier>{2BA7AC6A-A604-48A0-AE3F-E7A4F8764A70}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="..\..\Source\RailsShooter\Tutorials\Camera\CameraDirector.cpp">
+			<Filter>Source\RailsShooter\Tutorials\Camera</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\RailsShooter\Tutorials\Camera\CameraDirector.h">
+			<Filter>Source\RailsShooter\Tutorials\Camera</Filter>
+		</ClInclude >
+		<Filter Include="Source\RailsShooter\Tutorials\Pawns">
+			<UniqueIdentifier>{201D9364-E27A-466D-865F-9DBEDDFD3522}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="..\..\Source\RailsShooter\Tutorials\Pawns\PawnWithCamera.cpp">
+			<Filter>Source\RailsShooter\Tutorials\Pawns</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\RailsShooter\Tutorials\Pawns\PawnWithCamera.h">
+			<Filter>Source\RailsShooter\Tutorials\Pawns</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\RailsShooter\Tutorials\Pawns\TestPawn.cpp">
+			<Filter>Source\RailsShooter\Tutorials\Pawns</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\RailsShooter\Tutorials\Pawns\TestPawn.h">
+			<Filter>Source\RailsShooter\Tutorials\Pawns</Filter>
+		</ClInclude >
+	</ItemGroup>
+</Project>

@@ -1,0 +1,9 @@
+﻿  Creating makefile for RailsShooterEditor (no existing makefile)
+  Parsing headers for RailsShooterEditor
+    Running UnrealHeaderTool "D:\UE4Projects\RailsShooter\RailsShooter\RailsShooter.uproject" "D:\UE4Projects\RailsShooter\RailsShooter\Intermediate\Build\Win64\RailsShooterEditor\Development\RailsShooterEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+D:/UE4Projects/RailsShooter/RailsShooter/Source/RailsShooter/Pawns/EnemyShip.h(1): error : #include found after .generated.h file - the .generated.h file should always be the last #include in a header
+D:/UE4Projects/RailsShooter/RailsShooter/Source/RailsShooter/Pawns/PlayerShipNoControlsWithin.h(1): error : #include found after .generated.h file - the .generated.h file should always be the last #include in a header
+  D:/UE4Projects/RailsShooter/RailsShooter/Source/RailsShooter/Powerups/Powerup.h(33) : Unrecognized type 'APlayerShipNoControlsWithin' - type must be a UCLASS, USTRUCT or UENUM
+Error : Failed to generate code for RailsShooterEditor - error code: OtherCompilationError (5)
+  UnrealHeaderTool failed for target 'RailsShooterEditor' (platform: Win64, module info: D:\UE4Projects\RailsShooter\RailsShooter\Intermediate\Build\Win64\RailsShooterEditor\Development\RailsShooterEditor.uhtmanifest).
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.MakeFile.Targets(37,5): error MSB3075: The command ""C:\Program Files (x86)\Epic Games\4.12\Engine\Build\BatchFiles\Build.bat" RailsShooterEditor Win64 Development "D:\UE4Projects\RailsShooter\RailsShooter\RailsShooter.uproject" -waitmutex" exited with code 5. Please verify that you have sufficient rights to run this command.
